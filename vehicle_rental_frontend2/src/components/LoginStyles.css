@@ -1,0 +1,23 @@
+/* .mainPopUp
+{
+    margin-top:120px;
+    background-color: black;
+    border-radius:7px;
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+    width:fit-content;
+    padding:15px;
+    color:white;
+    font-family: "Poppins";
+    
+}
+
+.loginDetails
+{
+    background-color:grey;
+    color:white;
+    height:35px;
+    width:200px;
+    border-style:groove;
+} */

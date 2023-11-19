@@ -1,0 +1,46 @@
+.mainCard
+{
+    margin-left:23%;/* temp property, align as per the div where we will 
+                        place the component */
+    padding:25px;
+    background-color: rgba(204, 142, 40, 0.85);
+    color:white;
+    border-radius:10px;
+    display:flex;
+    height:fit-content;
+    width:fit-content;
+    font-family:"Poppins";
+    
+}
+
+.vehicleImage
+{
+    margin-right:10px;
+    border-color: green;
+}
+
+.vehicleDescription
+{
+    padding-top:5%;
+}
+
+.bt2
+{
+    margin-top:10px;
+    background-color: black;
+    color: white;
+    height:3em;
+    width: 15em;
+    border-radius: 10px;
+    box-shadow: none;
+    border-color:burlywood;
+    text-decoration: none;
+    /* padding:25px;
+    padding:10px;
+    margin-top:10px; */
+}
+
+.bt2:hover
+{
+    background-color:green;
+}

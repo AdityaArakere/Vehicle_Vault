@@ -1,0 +1,76 @@
+.NavbarItems
+{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 330px;
+    background-color: #222;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    width:95%;
+    height: 80px;
+    border-radius: 15px;
+    position: fixed;
+    top:20px;
+    left:50%;
+    transform: translate(-50%);
+    
+}   
+
+.logo
+{
+    color: white;
+    cursor: pointer;
+    justify-self: start;
+    text-decoration: none;
+    margin-top:7px;
+    
+}
+
+
+.nav-menu
+{
+    display: grid;
+    grid-template-columns:repeat(6,auto);
+    grid-gap:10px;
+    margin: 0 0;
+    align-items: center;
+    text-align: center;
+    list-style:none;
+    justify-content: end;
+}
+
+.nav-links
+{
+    color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.nav-links:hover, .nav-links-button:hover
+{
+    background-color: #5C6663;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links i
+{
+    padding-right: 0.55rem;
+}
+.nav-links-buttons i
+{
+    padding-right: 0.55rem;
+}
+
+.nav-links-button
+{
+    color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}

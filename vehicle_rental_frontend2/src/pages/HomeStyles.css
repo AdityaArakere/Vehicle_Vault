@@ -1,0 +1,82 @@
+.main
+{
+    align-items: center;
+    color: white;
+    margin:0px;
+    margin-top: 170px;
+    border-radius: 10px;
+    padding:5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:"Poppins";
+    background-color: rgba(204, 142, 40, 0.85);
+    height:300px;
+    
+}
+
+#bt1
+{
+    margin-top:10px;
+    background-color: black;
+    color: white;
+    height:3em;
+    width: 15em;
+    border-radius: 10px;
+    box-shadow: none;
+    border-color:burlywood;
+    text-decoration: none;
+    /* padding:25px;
+    padding:10px;
+    margin-top:10px; */
+}
+
+#bt1:hover
+{
+    background-color:green;
+}
+
+.selectorHeading
+{
+    text-align: center;
+    font-size: 4em;
+}
+
+.userInput
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.Box
+{
+    margin-top:-3%;
+    text-align: left;
+}
+
+.Box:first-of-type
+{
+    margin-left:32%;
+}
+
+
+
+.Date
+{
+    background-color:grey;
+    color:white;
+    height:35px;
+    width:200px;
+    border-style:groove;
+}
+
+.vehicleType
+{    
+    height:37px;
+    width:200px;
+    color:white;
+    background-color: grey;
+    border-color:black;
+    border-width: 2px;
+    
+}

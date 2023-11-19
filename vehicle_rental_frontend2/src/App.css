@@ -1,0 +1,6 @@
+body
+{
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image:url("./resources/main_background.jpg");
+    background-size:cover;
+}
