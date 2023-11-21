@@ -1,0 +1,15 @@
+.mainconfirm
+{
+    align-items: center;
+    color: white;
+    margin:0px;
+    margin-top: 170px;
+    border-radius: 10px;
+    padding:5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:"Poppins";
+    background-color: rgba(204, 142, 40, 0.85);
+    height:fit-content;
+    
+}

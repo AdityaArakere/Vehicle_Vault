@@ -164,6 +164,44 @@ app.get("/logout", (req, res) => {
   res.json({ message: "Logout successful" });
 });
 
+app.post("/confirmRental", (req, res, next) => {
+  console.log("inside confirm rental");
+  const user = req.user;
+  // console.log(user);
+  db.query(
+    `select rental_id, start_date, end_date, date(booking_date) as booking_date from active_rentals where customer_id = ${user.customer_id}`,
+    (err, results) => {
+      if (err) {
+        console.log(err);
+        res.status(500).send("Internal Server Error");
+      } else {
+        // console.log("here are the count results", results);
+        res.json({
+          results: results,
+        });
+      }
+    }
+  );
+});
+
+app.post("/deleteRental", (req, res, next) => {
+  const user = req.user;
+  db.query(
+    `delete from active_rentals where customer_id = ${user.customer_id}`,
+    (err, results) => {
+      if (err) {
+        console.log(err);
+        res.status(500).send("Internal Server Error");
+      } else {
+        // console.log("here are the count results", results);
+        res.json({
+          results: results,
+        });
+      }
+    }
+  );
+});
+
 app.listen(PORT, () => {
   db.connect((err) => {
     if (!err) {

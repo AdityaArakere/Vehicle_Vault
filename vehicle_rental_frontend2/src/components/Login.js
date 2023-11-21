@@ -1,9 +1,16 @@
+import "./LoginStyles.css";
 import Axios from "axios";
 import { useState } from "react";
+import { useEffect } from "react";
 
 Axios.defaults.withCredentials = true;
 
-function Authentication() {
+function Login() {
+
+  useEffect(() => {
+    fetchUserProfile();
+  }, []);
+
   const [phonenumberReg, setPhonenumberReg] = useState("");
   const [firstnameReg, setFirstnameReg] = useState("");
   const [lastnameReg, setLastnameReg] = useState("");
@@ -102,7 +109,7 @@ function Authentication() {
   };
 
   return (
-    <div className="main-login">
+    <div className="mainPopUp">
       <div className="register">
         <h1>REGISTER</h1>
         <label>Phone Number</label>
@@ -171,4 +178,4 @@ function Authentication() {
   );
 }
 
-export default Authentication;
+export default Login;

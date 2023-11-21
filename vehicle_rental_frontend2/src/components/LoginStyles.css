@@ -1,23 +1,23 @@
-/* .mainPopUp
-{
-    margin-top:120px;
-    background-color: black;
-    border-radius:7px;
-    display:flex;
-    flex-direction: column;
-    height:fit-content;
-    width:fit-content;
-    padding:15px;
-    color:white;
-    font-family: "Poppins";
-    
+.mainPopUp {
+  margin-top: 200px;
+  margin-right: 0%;
+  margin-left: 0%;
+  background-color: blueviolet;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  color: white;
+  font-family: "Poppins";
+  z-index: 100;
 }
 
-.loginDetails
-{
-    background-color:grey;
-    color:white;
-    height:35px;
-    width:200px;
-    border-style:groove;
-} */
+.loginDetails {
+  background-color: grey;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-style: groove;
+}
